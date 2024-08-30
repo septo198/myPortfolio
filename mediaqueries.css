@@ -7,6 +7,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    #contact, #projects {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 1200px){
@@ -26,7 +30,7 @@
         display:block;
     }
 
-    .arrows {
+    .arrow {
         display: none;
     }
 
@@ -50,8 +54,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    #contact, #footer {
-        height: 40vh;
+    #contact, footer {
+        height: 8vh;
     }
 
     #profile {
@@ -70,6 +74,10 @@
 
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
+    }
+
+    .contact-info-upper-container {
+        gap: 0.5rem;
     }
 
     .contact-info-container {

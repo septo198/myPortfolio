@@ -337,7 +337,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     gap: 0.5rem;
 }
 
@@ -360,6 +360,8 @@ article .icon {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    aspect-ratio: 1 / 1;   
+    object-fit: cover;
 }
 
 .project-title {

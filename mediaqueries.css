@@ -39,7 +39,7 @@
     }
 
     section {
-        margin: 0 5%;
+        margin: 0 10%;
     }
 
     .section__pic-container {
@@ -50,6 +50,14 @@
 
     .about-containers {
         margin-top: 0;
+    }
+
+    .experience-sub-title {
+        font-size: 1rem;
+    }
+
+    .project-info {
+        width: 9rem;
     }
 }
 
@@ -118,5 +126,21 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    .project-image {
+        justify-content: space-around;
+    }
+
+    .projects-containers {
+        height: 135vh;
+        flex-direction: column;
+    }
+
+    .project-item {
+        flex-direction: column;
+    }
+    .project-info {
+        width: 100%;
     }
 }
